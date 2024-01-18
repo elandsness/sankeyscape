@@ -1,0 +1,17 @@
+{
+  "environmentUrl": "https://<YOUR UNIQUE TENANT ID GOES HERE>.apps.dynatrace.com/",
+  "app": {
+    "name": "sankeyscape",
+    "version": "0.0.56",
+    "description": "Smartscape visualization via sankey",
+    "id": "my.sankeyscape",
+    "scopes": [
+      { "name": "storage:logs:read", "comment": "default template" },
+      { "name": "storage:buckets:read", "comment": "default template" },
+      { "name": "state:app-states:write", "comment": "write state"},
+      { "name": "state:app-states:read", "comment": "read state"},
+      { "name" :"app-engine:functions:run", "comment": "run functions"},
+      { "name": "storage:entities:read", "comment": "run functions" }
+    ]
+  }
+}
