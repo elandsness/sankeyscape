@@ -1,10 +1,10 @@
 {
-  "environmentUrl": "https://<YOUR UNIQUE TENANT ID GOES HERE>.apps.dynatrace.com/",
+  "environmentUrl": "https://bwm98081.apps.dynatrace.com/",
   "app": {
-    "name": "sankeyscape",
-    "version": "0.0.56",
-    "description": "Smartscape visualization via sankey",
-    "id": "my.sankeyscape",
+    "name": "sankey-service-viewer",
+    "version": "0.0.1",
+    "description": "An empty project",
+    "id": "my.sankey.service.viewer",
     "scopes": [
       { "name": "storage:logs:read", "comment": "default template" },
       { "name": "storage:buckets:read", "comment": "default template" },
